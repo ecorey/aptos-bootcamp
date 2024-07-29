@@ -16,8 +16,8 @@
 
 - Of the following properties that a blockchain can have, which 2 are most important to you ?
 
-    High throughput
-    Low transaction fees
-    Security
-    Finality
+    High throughput, 
+    Low transaction fees, 
+    Security, 
+    Finality, 
     Governance
