@@ -24,3 +24,6 @@ The benefits that blockchain gives is a censorship free environment where the ru
     Security, 
     Finality, 
     Governance
+
+    ANSWER:
+     I feel by far the most important attribute is security, which without would compromise the entire network. After security I believe that governance/ consensus would be the most important as it defines the decentralized structure of the network. 
