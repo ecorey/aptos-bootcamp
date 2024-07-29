@@ -4,8 +4,7 @@
 
 - Fill in the poll in sli.do
 
-
-
+--- 
 
 - Imagine you are building a decentralised game
     - Name some issues arising from decentralisation
@@ -17,6 +16,9 @@ Some of the issues arising from decentralization arise in finding consensus. Sol
 
 The benefits that blockchain gives is a censorship free environment where the rules are predetermined and not changeable by any single entity. 
 
+---
+
+
 - Of the following properties that a blockchain can have, which 2 are most important to you ?
 
     High throughput, 
@@ -25,5 +27,6 @@ The benefits that blockchain gives is a censorship free environment where the ru
     Finality, 
     Governance
 
-    ANSWER:
-     I feel by far the most important attribute is security, which without would compromise the entire network. After security I believe that governance/ consensus would be the most important as it defines the decentralized structure of the network. 
+
+ANSWER:
+I feel by far the most important attribute is security, which without would compromise the entire network. After security I believe that governance/ consensus would be the most important as it defines the decentralized structure of the network. 
