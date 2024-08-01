@@ -11,7 +11,7 @@
 - Create a directory called h4 and within that use the CLI to create a project
     - aptos move init --name h4
 
--You can also set up your environment within that directory by running
+- You can also set up your environment within that directory by running
 aptos init
 
 - This will take you through setting up an account, choose the default network devnet.
