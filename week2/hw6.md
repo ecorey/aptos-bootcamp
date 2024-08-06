@@ -1,8 +1,10 @@
 # Homework 6
 
 # Move an Asset
-# Take the skeleton code from this gist
-# Fill in the module details
+
+- Take the skeleton code from [here](https://gist.github.com/extropyCoder/766d6242540fc90881bfc7e1c4f83c32)
+
+-  Fill in the module details
 
 ---
 
