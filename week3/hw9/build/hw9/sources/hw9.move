@@ -4,8 +4,12 @@ module named_add::hw9 {
     use std::signer;
     use std::string::{Self, String};
     use aptos_framework::object;
+    use aptos_framework::event;
 
 
+    
+
+    #[event]
     struct SampleObjectEvent has store, drop {
         my_object: address,
     }
@@ -30,7 +34,14 @@ module named_add::hw9 {
             balance: 100,
         };
 
+        event::emit( SampleObjectEvent {
+            my_object: caller_address,   
+        });
+
         move_to(&object_signer, example_object );
+
+
+        
 
     }
 
