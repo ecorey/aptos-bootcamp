@@ -1,0 +1,16 @@
+[package]
+name = "hw9"
+version = "1.0.0"
+authors = []
+
+[addresses]
+named_add = "0x90d0efdbf41f20af40ce71172b8c8855c401fc8f9d57106847a590251a83dfaa"
+
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "mainnet"
+subdir = "aptos-move/framework/aptos-framework"
+
+[dev-dependencies]
