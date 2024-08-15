@@ -40,9 +40,47 @@ module named_add::hw9 {
 
         move_to(&object_signer, example_object );
 
+    }
 
-        
+
+
+
+
+    const NAMED_OBJECT: vector<u8> = b"namedObject";
+
+
+    public entry fun create_sample_named_object(caller: &signer) {
+
+
+        let constructor_ref = object::create_named_object(caller, NAMED_OBJECT);
+
+
+        let object_signer = object::generate_signer(&constructor_ref);
+
+
+        let example_named_object = ExampleObject {
+            name: string::utf8(b"object 2"),
+            balance: 200,
+        };
+
+    
+        move_to(&object_signer, example_named_object );
 
     }
+
+
+    #[view]
+    fun has_named_object(creator: address) : address {
+        let named_object_address = object::create_object_address(&creator, NAMED_OBJECT);
+        named_object_address
+    }
+
+
+
+
+
+
+
+
 
 }
