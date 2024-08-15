@@ -1,0 +1,16 @@
+[package]
+name = "hw11"
+version = "1.0.0"
+authors = []
+
+[addresses]
+hw11 = "0xc771daad011b2bacdde2f67dd02ccb201c5a757e2c295a6d5c4672acab192c69"
+
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "mainnet"
+subdir = "aptos-move/framework/aptos-framework"
+
+[dev-dependencies]
