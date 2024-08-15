@@ -3,7 +3,7 @@ module hw12::hw12 {
     use std::signer;
     use aptos_token_objects::collection;
     use aptos_token_objects::token;
-    use std::string::String;
+    use std::string::{Self, String};
     use std::option::{Self, Option};
 
 
@@ -59,7 +59,22 @@ module hw12::hw12 {
 
 
     // init
+    fun init_module(creator: &signer) {
+        
+        let collection_name = string::utf8(b"Collection");
+        let collection_description = string::utf8(b"Collection of NFTs");
+        let collection_uri = string::utf8(b"https://example.com/collection");
 
+        create_collection(creator, collection_name, collection_description, collection_uri);
+
+        let token_name = string::utf8(b"Token");
+        let token_description = string::utf8(b"Token");
+        let token_uri = string::utf8(b"https://example.com/token");
+
+
+        create_nft_in_collection(creator, collection_name, token_name, token_description, token_uri);
+
+    }
 
 
 
